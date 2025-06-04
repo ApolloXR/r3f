@@ -1,0 +1,4 @@
+/* App-specific styles */
+main {
+  padding-top: 80px; /* Adjust if header height changes. Matches .app-header height + padding */
+}
