@@ -10,9 +10,9 @@ function App() {
   // Placeholder asset data - replace with actual paths and details
   // Ensure these models exist in public/models/ or update paths accordingly.
   const assets = [
-    { id: 1, name: 'Drill', modelPath: '/models/drill.glb', description: 'A high-poly model of a futuristic surveillance drone, designed for aerial reconnaissance.' },
-    { id: 2, name: 'Hammer', modelPath: '/models/hammer.glb', description: 'Detailed concept of an advanced cybernetic eye with augmented reality capabilities.' },
-    { id: 3, name: 'Tape Measure', modelPath: '/models/tapeMeasure.glb', description: 'An interactive holographic workstation UI, showcasing data visualization in 3D space.' },
+    { id: 1, name: 'Drill', modelPath: './models/drill.glb', description: 'A high-poly model of a futuristic surveillance drone, designed for aerial reconnaissance.' },
+    { id: 2, name: 'Hammer', modelPath: './models/hammer.glb', description: 'Detailed concept of an advanced cybernetic eye with augmented reality capabilities.' },
+    { id: 3, name: 'Tape Measure', modelPath: './models/tapeMeasure.glb', description: 'An interactive holographic workstation UI, showcasing data visualization in 3D space.' },
   ];
 
   return (
