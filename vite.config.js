@@ -4,6 +4,7 @@ import basicSsl from '@vitejs/plugin-basic-ssl';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "/r3f/",
   plugins: [react(), basicSsl()],
   server: {
     host: "0.0.0.0",
